@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+      #parent, #other{
+        border:5px solid tomato;
+      }
+      #me{
+        background-color: black;
+        color:white;
+        position: absolute;
+        left:0px; /*offset이라고 부른다.*/
+        top:0px;
+
+      }
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="other">other
+    </div>
+    <div id="parent">parent
+      <div id="me">me
+      </div>
+    </div>
+  </body>
+</html>
